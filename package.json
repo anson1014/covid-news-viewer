@@ -1,0 +1,28 @@
+{
+  "name": "earth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "miniature.earth.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BluearthProject/earth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BluearthProject/earth/issues"
+  },
+  "homepage": "https://github.com/BluearthProject/earth#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^2.0.3",
+    "request": "^2.88.2"
+  }
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>World News Viewer</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+
+
+<script src='./onPageLoad.js'></script>
+
+</head>
+
+<body>
+
+	<div id="cover-wrapper">
+				<h1 id='bluearth-title'>COVID 19</h1>
+				<h1 id='collective-title'> Global News </h1>
+			</div>
+
+
+	<div id="wrapper">	
+		
+		<!-- <h2 id="news-header" style="color:red;">Around the World</h2> -->
+
+		<div id="breaking-news">
+
+			
+			
+			<!-- <div id="breaking-news" class="news">
+				<a href="http://example.com"><h3>Storm Warning for the Caribbean</h3></a>
+				<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+			</div>
+			
+			<div id="breaking-news" class="news">
+				<a></a><h3>Storm Warning for the Caribbean</h3></a>
+				<p>Sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+			</div>
+			
+			<div id="breaking-news" class="news">
+				<a><h3>Storm Warning for the Caribbean</h3></a>
+				<p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.</p>
+			</div> -->
+			
+		</div>
+		
+		<div id="earth-col">
+			<div id="element" class="little-earth"></div>
+		</div>
+		
+		<div id="local-news">
+		
+			<h2 id="country-name" style="color:#257cff">News from around the&nbsp;world</span></h2>
+			
+			<p id="please-click" class = 'stats'>Click a country to show their current news or stats.</p>
+			<p id="total-recovered" class = 'stats'></p>
+			<p id="total-active" class = 'stats'></p>
+			<p id="total-dead" class = 'stats'></p>
+			
+			
+		</div>
+	</div>		
+	<!-- facebook-button -->
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+
+</body>
+</html>
+
+<link rel="stylesheet" href="./style.css">
+
+
+<!-- <script src="/earth/countries.js"></script> -->
+
+<script src="./miniature.earth.js"></script>
