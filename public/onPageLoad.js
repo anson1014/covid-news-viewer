@@ -16,7 +16,7 @@ window.addEventListener('earthjsload', function() {
         mapHitTest: true,
 
         autoRotate: true,
-        autoRotateSpeed: 1.5,
+        autoRotateSpeed: 2,
         autoRotateDelay: 3000,
     });
 
