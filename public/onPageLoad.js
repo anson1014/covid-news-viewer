@@ -17,7 +17,7 @@ window.addEventListener('earthjsload', function() {
 
         autoRotate: true,
         autoRotateSpeed: 2,
-        autoRotateDelay: 3000,
+        autoRotateDelay: 1000,
     });
 
     myearth.addEventListener('ready', function() {
